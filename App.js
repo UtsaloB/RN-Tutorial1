@@ -22,12 +22,7 @@ const instructions = Platform.select({
 const butfly = 'https://previews.123rf.com/images/thawats/thawats1602/thawats160200028/53632231-beautiful-three-monarch-butterfly-isolated-on-white-background.jpg';
 type Props = {};
 export default class App extends Component<Props> {
-  
-  // constructor(){
-  //   this.state = {
-  //     text: ''
-  //   }
-  // }
+
   render() {
     return (
       <View style={styles.container}>

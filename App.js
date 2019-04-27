@@ -30,32 +30,29 @@ export default class App extends Component<Props> {
        {/* <Text style={styles.welcome}>Welcome to React Native!</Text> */}
         <Image style={styles.image} 
           source = {{uri: butfly}}
-        />
+          />
+          </TouchableHighlight>
 
        <Text style={styles.info}>Login Information</Text>
-       <TextInput style={styles.input>
+       <TextInput style={styles.input}
           placeholder="Firstname"
           keyboardType='Default'
           maxLenght='40'
           autoCorrect={false}
        />
-       <TextInput style={styles.input>
+       <TextInput style={styles.input}
         placeholder="Secondname"
         keyboardType='Default'
         maxLenght='40'
         autoCorrect={false}
         />
 
-        { <Button 
+        <Button 
           onPress={()=>console.log("Press Me")}
           title="Login"
           color="#edd5ed"
           accessibilityLabel="LOGIN"
-        />}
-
-        </TouchableHighlight>
-        {/* <Text style={styles.instructions}>To get started, edit App.js</Text> */}
-        {/* <Text style={styles.instructions}>{instructions}</Text> */}
+        />
       </View>
     );
   }
@@ -74,9 +71,9 @@ const styles = StyleSheet.create({
   //   margin: 10,
   //   backgroundColor: '#f1f442'
   // },
-  touchableHighlight: {
-    backgroundColor: 
-  },
+  // touchableHighlight: {
+  //   backgroundColor: 
+  // },
   // instructions: {
   //   textAlign: 'center',
   //   color: '#333333',
